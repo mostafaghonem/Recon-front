@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cairo';
+    src: url('Cairo-Black.eot');
+    src: url('Cairo-Black.eot?#iefix') format('embedded-opentype'),
+        url('Cairo-Black.woff2') format('woff2'),
+        url('Cairo-Black.woff') format('woff'),
+        url('Cairo-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

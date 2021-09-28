@@ -1,0 +1,36 @@
+// @font-face {
+//   font-family: "Cairo";
+//   src: url("~assets/fonts/cairo/Cairo-Black.ttf");
+//   font-style: normal;
+//   font-weight: normal;
+// }
+
+@font-face {
+  font-family: "Cairo";
+  src: url("~assets/fonts/Cairo-Font/Cairo-Black.eot");
+  src: url("~assets/fonts/Cairo-Font/Cairo-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/Cairo-Font/Cairo-Black.woff2") format("woff2"),
+    url("~assets/fonts/Cairo-Font/Cairo-Black.woff") format("woff"),
+    url("~assets/fonts/Cairo-Font/Cairo-Black.ttf") format("truetype");
+  font-weight: 100 !important;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amiri";
+  src: url("~assets/fonts/Amiri-Font/Amiri-Bold.ttf") format("truetype");
+  font-weight: 600 !important;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("~assets/fonts/Tajawal-Font/Tajawal-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 600 !important;
+  font-style: normal;
+  font-display: swap;
+}

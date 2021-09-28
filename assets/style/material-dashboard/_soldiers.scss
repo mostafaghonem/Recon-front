@@ -1,0 +1,19 @@
+.soldier-fields .v-select__selection.v-select__selection--comma {
+  font-size: 12px;
+}
+.soldier-fields
+  .v-select__selection.v-select__selection--comma:nth-child(1n + 5) {
+  display: none;
+}
+
+.filter-table-button {
+  margin: 15px auto auto auto !important;
+}
+
+.tripleNumber .v-label {
+  font-size: 11px !important;
+}
+
+.tripleNumber .v-messages {
+  font-size: 9px !important;
+}

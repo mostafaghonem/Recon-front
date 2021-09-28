@@ -1,0 +1,139 @@
+.theme--light.v-text-field .v-input__slot:before {
+  border-color: $color-underline !important;
+}
+
+.input--is-focused .v-input__control .v-input__slot:after {
+  border-color: $color-underline !important;
+}
+.v-input__prepend-outer {
+  margin-right: 0px !important;
+  margin-left: 5px !important;
+}
+
+.v-text-field__slot {
+  // background-color: $input-background-color !important;
+  // background: #0000006c !important;
+  background: $white !important;
+  input {
+    // background: #000000c2 !important;
+    // background: $recon-white-transparent !important;
+    @include material-placeholder {
+      color: $input-color;
+    }
+  }
+
+  .v-label {
+    color: $label-color !important;
+    font-size: $font-size-default;
+    font-weight: $font-weight-base;
+  }
+}
+
+.theme--dark.v-input:not(.v-input--is-disabled) input,
+.theme--dark.v-input:not(.v-input--is-disabled) textarea {
+  color: $black !important;
+  font-size: $font-size-default;
+}
+
+.v-select__slot .v-label,
+.v-text-field__slot .v-label {
+  right: 0 !important;
+  left: unset !important;
+}
+
+.v-select-list {
+  [role="listitem"] {
+    background: #000000 !important;
+  }
+}
+
+.error--text {
+  color: $error-color !important;
+  caret-color: $error-color !important;
+  font-size: 18px !important;
+}
+
+.theme--dark.v-label {
+  // color: $black !important;
+  color: $black !important;
+}
+
+.theme--dark.v-text-field .v-label--active {
+  color: $white !important;
+  transform: translateY(-25px) scale(0.85) !important;
+}
+
+.v-input--is-disabled .v-select__slot {
+  background: $grey-700 !important;
+}
+
+// .v-select__slot {
+//   background: #0000006c !important;
+// }
+
+// .v-input__slot {
+//   background: #0000006c !important;
+// }
+
+.v-select__slot {
+  background: $white !important;
+}
+
+.v-input__slot {
+  background: $white !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background: #0000006c !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.mdi-magnify:before,
+.mdi-menu-down:before,
+.mdi-menu-up:before {
+  color: black !important;
+}
+
+.v-textarea.v-text-field {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.v-list__tile__title {
+  text-align: right !important;
+}
+
+.subject textarea {
+  min-height: 150px !important;
+}
+
+// .v-input__slot {
+//   background: $recon-white-transparent !important;
+// }
+
+// .v-select__slot {
+//   background: $recon-white-transparent !important;
+// }
+
+@include inputs-color($brand-primary, "purple");
+@include inputs-color($brand-warning, "orange");
+@include inputs-color($brand-info, "info");
+@include inputs-color($brand-danger, "danger");
+@include inputs-color($brand-success, "success");
+@include inputs-color($brand-success, "primary");

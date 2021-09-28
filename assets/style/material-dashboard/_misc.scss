@@ -1,0 +1,168 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4 {
+  font-family: $font-family-cairo-black !important;
+  // background-image: url("~assets/images/1.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+}
+.theme--dark,
+.theme--dark.v-card,
+.theme--dark.v-datatable,
+.theme--dark.v-datatable .v-datatable__actions {
+  background-color: transparent !important;
+}
+.theme--light.application {
+  background: $body-color;
+}
+
+.theme--light.v-input:not(.v-input--is-disabled) input,
+.theme--light.v-input:not(.v-input--is-disabled) textarea {
+  color: rgb(255, 255, 255);
+}
+
+.v-content {
+  font-family: $font-family-cairo-black !important;
+  background-image: url("~assets/images/mbg.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+//  background: 
+//   #3e6963 !important
+  
+}
+
+.layer {
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-transform: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: $font-size-general + 2 !important;
+  // direction: rtl !important;
+}
+
+.category {
+  font-size: $font-size-general;
+}
+
+.theme--light.v-icon {
+  color: $gray-light;
+}
+
+blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+
+  p {
+    font-style: italic;
+    color: $blockquote-color;
+    font-weight: $font-weight-bolder;
+  }
+
+  small {
+    font-size: 70%;
+  }
+}
+
+b,
+strong {
+  font-size: $font-size-small;
+  font-weight: $font-weight-bolder;
+}
+
+.v-list--three-line .v-list__tile {
+  height: auto;
+}
+
+.success {
+  background-color: $color-underline !important;
+  border-color: $color-underline !important;
+}
+
+.v-label {
+  font-size: large !important;
+}
+
+.form-select {
+  font-size: large;
+}
+
+.container {
+  padding-bottom: unset !important;
+}
+
+.flex.xs12.md12 {
+  padding-bottom: unset !important;
+}
+
+.color-key {
+  font-size: x-small !important;
+  display: flex;
+}
+
+.color-box {
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin: 7px;
+  border: 2px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.color-text {
+  padding-top: 4px;
+}
+
+.red {
+  background: $mail-red !important;
+  box-shadow: 0px 0px 2px 2px $mail-red;
+}
+.orange {
+  background: $mail-warning !important;
+  box-shadow: 0px 0px 2px 2px #ffb24eb7;
+}
+
+.white {
+  background: $white !important;
+  box-shadow: 0px 0px 2px 2px $white;
+}
+
+.green {
+  background: $mail-success !important;
+  box-shadow: 0px 0px 2px 2px $mail-success;
+}
+.grey {
+  background: rgba(221, 221, 221, 0.432) !important;
+  box-shadow: 0px 0px 2px 2px rgba(221, 221, 221, 0.432);
+}
+.blue {
+  background: #00f !important;
+  box-shadow: 0px 0px 2px 2px $mail-success;
+}
+@include drawer-active-colors("primary", $brand-primary);
+@include drawer-active-colors("success", $brand-success);
+@include drawer-active-colors("danger", $brand-danger);
+@include drawer-active-colors("info", $social-facebook);
+@include drawer-active-colors("warning", $brand-warning);

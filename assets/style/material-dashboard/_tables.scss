@@ -1,0 +1,121 @@
+.theme--dark.v-table thead tr:first-child {
+  border: 3px solid rgb(62, 90, 20) !important;
+}
+
+table.v-table tbody tr:not(:last-child) {
+  border: 3px solid #ff603c !important;
+}
+
+table {
+  direction: rtl;
+}
+.theme--dark.v-table tbody tr {
+  background: #ffffffd1;
+  color: $black ;
+  cursor: context-menu;
+}
+table.v-table thead tr {
+  height: $table-head-height;
+  width: $table-head-width;
+  cursor: context-menu;
+}
+
+// .theme--dark.v-table tbody tr[active] {
+//   background: $table-unseen-color !important;
+// }
+
+// .theme--light.v-table tbody tr:hover:not(.v-datatable__expand-row) {
+//   background: $table-hover-color !important;
+// }
+
+.theme--dark.v-table thead tr {
+  background: $social-facebook !important;
+  color: $white !important;
+}
+
+
+
+.mail_yesterday{
+  background-color: $color-yesterDay !important;
+  color: #fff !important;
+}
+
+.mail_colored{
+  background:$mail-today !important;
+  color : #fff !important
+}
+.mail_red {
+  background: $mail-red !important;
+  color: $white !important;
+}
+
+.mail_warning {
+  background: $mail-warning !important;
+}
+.mail_success {
+  background: $mail-success !important;
+}
+
+table.v-table tbody td {
+  font-size: $font-size-general;
+  font-weight: $font-weight-bolder;
+  border-left: 3px solid #ff603c;  
+  text-align: center!important;
+}
+
+table.v-table tbody td:first-child,
+table.v-table tbody td:not(:first-child),
+table.v-table tbody th:first-child,
+table.v-table tbody th:not(:first-child),
+table.v-table thead td:first-child,
+table.v-table thead td:not(:first-child),
+table.v-table thead th:first-child,
+table.v-table thead th:not(:first-child) {
+  padding: $padding-small + 2 $tabs-text-box-padding;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  // font-size: 10px !important;
+  white-space: nowrap;
+}
+
+.v-datatable__progress {
+  display: none;
+}
+table thead tr th {
+  border-radius: 5px!important}
+table thead tr th span {
+  font-size: 1.0625rem !important;
+}
+table thead{
+  
+  border-radius: 5px!important;
+}
+table thead th.column span{
+  color: #fff!important;
+}
+table thead th.column {
+  text-align: center !important;
+  background-color: #ff603c;
+  border-left: 3px solid rgb(62, 90, 20);
+}
+
+table .subheading {
+  font-size: small !important;
+}
+
+table.v-table tbody td,
+table.v-table tbody th {
+  height: 25px !important;
+}
+table.v-table tbody th {
+  text-align: center !important;
+}
+.mdi-folder-move:before {
+  content: "\F252";
+  color: black !important;
+}
+
+.mdi-email:before {
+  content: "\F1EE";
+  color: black !important;
+}
